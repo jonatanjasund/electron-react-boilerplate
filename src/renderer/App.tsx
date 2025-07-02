@@ -1,4 +1,5 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import { Button } from 'antd';
 import icon from '../../assets/icon.png';
 import './App.css';
 
@@ -11,6 +12,7 @@ function Hello() {
           Last export:
           <span> 02.06.2025</span>
         </p>
+        <Button type="primary">PRESS ME</Button>
         <button type="button">Hent CSV</button>
       </div>
       <div className="Hello">
