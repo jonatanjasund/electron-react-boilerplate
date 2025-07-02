@@ -1,10 +1,18 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import icon from '../../assets/icon.svg';
+import icon from '../../assets/icon.png';
 import './App.css';
 
 function Hello() {
   return (
     <div>
+      <h2>Packiyo</h2>
+      <div className="container">
+        <p>
+          Last export:
+          <span> 02.06.2025</span>
+        </p>
+        <button type="button">Hent CSV</button>
+      </div>
       <div className="Hello">
         <img width="200" alt="icon" src={icon} />
       </div>
